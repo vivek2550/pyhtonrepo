@@ -74,4 +74,21 @@ elif num2>num1 and num2>num3:
     print(num2,"is the largest")
 else:
     print("num3 is the largest")    
+
+# Wap a program to generate a random number in python
+import random as ran
+num = ran.shuffle(1,100 )
+print(num)
+
+# Wap a program to convert celsius to fahrenheit 
+c = float(input("enter the number"))
+f = (c*9/5)+32
+print(f)
+
+# sum of n natural numb
+num = int(input("enter the num"))
+sum =1
+for i in range(1,num+1):
+    sum = sum*i
+    print(sum)
       
